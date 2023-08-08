@@ -1,8 +1,10 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.6619903a.css",
-    "main.js": "/portfolio/static/js/main.46500758.js",
+    "main.js": "/portfolio/static/js/main.44764c6e.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/simpli.webp": "/portfolio/static/media/simpli.9f7c9dd590e6598e2fa6.webp",
+    "static/media/younotes.webp": "/portfolio/static/media/younotes.5d7985c1457f1ad84f97.webp",
     "static/media/poppins-devanagari-400-normal.woff": "/portfolio/static/media/poppins-devanagari-400-normal.0e11b62db931f85340d4.woff",
     "static/media/poppins-devanagari-300-normal.woff": "/portfolio/static/media/poppins-devanagari-300-normal.c5eb8fb453e49d29b817.woff",
     "static/media/poppins-devanagari-600-normal.woff": "/portfolio/static/media/poppins-devanagari-600-normal.ae9c1f88ace17d23e8e6.woff",
@@ -36,11 +38,11 @@
     "static/media/poppins-latin-ext-700-normal.woff2": "/portfolio/static/media/poppins-latin-ext-700-normal.63d2a69665d58b22ceea.woff2",
     "index.html": "/portfolio/index.html",
     "main.6619903a.css.map": "/portfolio/static/css/main.6619903a.css.map",
-    "main.46500758.js.map": "/portfolio/static/js/main.46500758.js.map",
+    "main.44764c6e.js.map": "/portfolio/static/js/main.44764c6e.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6619903a.css",
-    "static/js/main.46500758.js"
+    "static/js/main.44764c6e.js"
   ]
 }
