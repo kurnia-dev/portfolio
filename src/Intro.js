@@ -8,7 +8,7 @@ export default function Intro() {
                     <p >Currently I’m looking for an opportunity to begin my journey as FE Developer. </p>
                     <ul className="flex flex-col gap-1.5">
                         <li>Kebumen Regency <br /> Central Java, Indonesia</li>
-                        <li className="text-[var(--accent-color)]">kurnia@onetekno.my.id</li>
+                        <li className="text-[var(--accent-color)]"><a href="mailto:kurnia@onetekno.my.id" target="_blank">kurnia@onetekno.my.id</a></li>
                     </ul>
                 </div>
             </div>
