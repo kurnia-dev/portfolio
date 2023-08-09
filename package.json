@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "kurnia-dev.github.io/portfolio",
+  "homepage": "https://kurnia-dev.github.io/portfolio",
   "private": true,
   "dependencies": {
     "@fontsource/poppins": "^5.0.7",
@@ -11,6 +11,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
+    "react-vanilla-tilt": "^1.0.0",
     "tailwindcss": "^3.3.3",
     "web-vitals": "^2.1.4"
   },

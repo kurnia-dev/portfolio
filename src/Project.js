@@ -28,7 +28,7 @@ const projectList = {
         "bgUrl": simpli,
         "repo": "https://github.com/kurnia-dev/simpli", 
         "preview": "https://simpli-template.zendcode.web.id/", 
-        "inProgress": false,
+        "inProgress": true  ,
     }, 
     "YouNotes": {
         "type": "Personal Project",
@@ -61,14 +61,16 @@ export default function Project() {
                 const {type, label, tech, bgUrl, repo, preview, inProgress} = projectList[title]
                 
                 return (
-                    <div className='group relative cursor-pointer transition duration-200 ease-linear'>
-                        <div className='group-hover:opacity-40 group-hover:blur-[1px] group-hover:-skew-x-5 group-hover:skew-y-1 transition duration-150 ease-linear py-5 px-5 h-full rounded-[6px] shadow-2 flex flex-col gap-3 justify-between bg-no-repeat bg-auto bg-clip-border bg-center bg-cover' style={{backgroundImage : `url(${bgUrl})`}}> 
+                    <div className='group relative hover:scale-[1.02] cursor-pointer transition duration-200 ease-linear'>
+                        <div className='group-hover:opacity-40 group-hover:blur-[1px] transition duration-150 ease-linear 
+                        py-5 px-5 h-full rounded-[6px] shadow-2 flex flex-col gap-3 justify-between
+                        bg-no-repeat bg-clip-border bg-center bg-cover' style={{ backgroundImage: `url(${bgUrl})` }}> 
                         <span className='text-[var(--project-type-color)] text-sm font-medium leading-[110%] tracking-[0.24px]'>{type}</span>
                         <div className='flex flex-col gap-2 max-w-[50%]'>
                             <h2 className='font-semibold leading-[120%] text-lg text-main'>{title}</h2>    
                             <span className='text-base leading-tight text-2nd font-normal'>
                                 {label.map((item, index) => (
-                                    index == label.length - 1 ? item : item + ", " 
+                                    index === label.length - 1 ? item : item + ", " 
                                 ))}
                             </span>
                         </div>
@@ -81,16 +83,17 @@ export default function Project() {
                                     className="main-button translate-y-1/2 ">
                                     In Progress
                                 </span>
-                                <a href={repo} className='secondary-button translate-y-1/2' title="This Project GitHub Repository">Repo</a>
+                                <a href={repo} target='_blank' rel='noreferrer' className='secondary-button translate-y-1/2' title="This Project GitHub Repository">Repo</a>
                             </>
                             : 
                             <>
-                                <a href={preview}
+                                <a href={preview} target='_blank' rel='noreferrer'
                                     className="main-button translate-y-1/2 "
                                     title="See this project's preview">
                                     Preview
                                 </a>
-                                <a href={repo} className="secondary-button translate-y-1/2" title="This Project GitHub Repository">Repo</a>
+                                <a href={repo} target='_blank' rel='noreferrer'
+                                    className="secondary-button translate-y-1/2" title="This Project GitHub Repository">Repo</a>
                             </>
                         }
                     </div>

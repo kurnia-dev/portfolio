@@ -53,14 +53,17 @@
 
     /* Skill Position */
     #\30 {
-        top: 0;
+        /* top: 0;
         left: 0;
-        transform: translate(-55%, -50%);
+        transform: translate(-55%, -50%); */
+        top: -30px;
+        left: -30%;
     }
     #\31 {
-        bottom: -20px;
+        /* bottom: -20px; */
+        top: calc(100% + 20px);
         left: -42px;
-        transform: translateY(100%);
+        /* transform: translateY(100%); */
     }
     #\32 {
         top: 25%;
@@ -71,30 +74,41 @@
         left: 80%;
     }
     #\34 {
-        bottom: 36px;
+        /* bottom: 36px;
         right: 24px;
-        transform: translateX(100%);
+        transform: translateX(100%); */
+        bottom: 36px;
+        left: calc(100% - 24px);
       }
     #\35 {
-        left: -13px;
+        right: calc(100% + 13px);
         bottom: 36px;
-        transform: translateX(-100%);
     }
     
     #\36 {
-        bottom: -14px;
+        /* bottom: -14px; */
         left: 52%;
-        transform: translateY(100%);
+        /* transform: translateY(100%); */
+        top: calc(100% + 14px);
     }
     #\37 {
-        top: -53px;
-        transform: translate(-100%, -100%);
-        left: 30%;
+        left: -77%;
+        top: -50%;
       }
 
     #\38 {
-        top: -14px;
+        /* top: -14px; */
+        top: -34%;
         left: 48%;
-        transform: translate(0, -109%);
+        /* transform: translate(0, -109%); */
+    }
+
+    .tilt {
+        all: unset;
+        background: none !important;
+        box-shadow: none !important;
+        width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
     }
 }

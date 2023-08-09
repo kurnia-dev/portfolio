@@ -7,7 +7,7 @@ export default function Footer() {
                 <p className="text-sm text-[var(--text-color)]">
                     This portfolio build with React JS and Tailwind CSS. 
                     <br/>
-                    <a href="" title="GitHub Repo" className="underline font-medium">View source on GitHub.</a>
+                    <a href="https://github.com/kurnia-dev/portfolio" title="GitHub Repo" className="underline font-medium">View source on GitHub.</a>
                 </p>
 
                 <ul className="list-none text-[var(--text-color)] text-sm flex flex-col gap-2 items-center" >
