@@ -42,7 +42,7 @@
     }
 
     .main-button {
-        @apply py-[6px] px-[14px] bg-[var(--text-color)] hover:bg-[var(--accent-color)] w-max rounded-full  text-white transition duration-150 ease-linear
+        @apply py-[6px] px-[14px] bg-[var(--text-color)] hover:bg-[var(--accent-color)] w-max rounded-full  text-white transition duration-150 ease-linear cursor-pointer
     }
 
     .secondary-button {
